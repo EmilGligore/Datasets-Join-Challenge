@@ -1,4 +1,5 @@
 🗂️ Datasets Join Challenge
+
 This project focuses on integrating data from three distinct datasets, each offering information about the same companies from different sources. The ultimate goal is to create a unified dataset that ensures improved accuracy and consistency in each column.
 
 📄 Input Datasets
@@ -57,6 +58,7 @@ TLD
 category
 
 🎯 Objective
+
 The aim of this project is to merge the three datasets into a fourth, unified dataset while ensuring:
 
 Improved accuracy in key columns, such as category, address, phone, and company name.
