@@ -1,15 +1,61 @@
-Datasets Join Challenge
-This project focuses on integrating and harmonizing data from three distinct datasets, each describing information about the same companies from different sources. The objective is to create a unified dataset that consolidates all available information with improved accuracy for each column. Below are the details of the input datasets:
+🗂️ Datasets Join Challenge
+This project tackles the integration of data from three different datasets, each providing information about the same companies but collected from diverse sources. The goal is to create a unified dataset with improved accuracy for each column.
 
-Input Datasets
-Google Dataset
+📄 Input Datasets
+1. Google Dataset
+This dataset includes information about companies from Google and contains the following columns:
 
-Columns: address, category, city, country code, country name, name, phone, phone country code, raw address, raw phone, region code, region name, text, zip code, domain.
-Facebook Dataset
+address
+category
+city
+country code
+country name
+name
+phone
+phone country code
+raw address
+raw phone
+region code
+region name
+text
+zip code
+domain
+2. Facebook Dataset
+This dataset provides company information from Facebook, with the following columns:
 
-Columns: domain, address, categories, city, country code, country name, description, email, link, name, page type, phone, phone country code, region code, region name, zip code.
-Website Dataset
+domain
+address
+categories
+city
+country code
+country name
+description
+email
+link
+name
+page type
+phone
+phone country code
+region code
+region name
+zip code
+3. Website Dataset
+This dataset contains website data, formatted with ; as the delimiter, and the following columns:
 
-Columns: root domain, domain suffix, language, legal name, main city, main country, main region, phone, site name, TLD, category (data columns are delimited by ;).
-Objective
-The goal is to create a fourth dataset that merges the information from all three sources while ensuring greater accuracy in key columns such as category, address, phone, and company name. This process involves data cleaning, deduplication, and validation techniques to reconcile inconsistencies across the datasets.
+root domain
+domain suffix
+language
+legal name
+main city
+main country
+main region
+phone
+site name
+TLD
+category
+🎯 Objective
+The objective of this project is to create a fourth dataset by merging the information from all three sources while ensuring:
+
+Greater accuracy in key columns such as category, address, phone, and company name.
+Consistency and completeness through data cleaning, deduplication, and validation techniques.
+This unified dataset will serve as a more reliable and comprehensive resource for further analysis.
