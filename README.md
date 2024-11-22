@@ -20,6 +20,7 @@ region name
 text
 zip code
 domain
+
 2. Facebook Dataset
 This dataset provides company data from Facebook, containing the following columns:
 
@@ -39,6 +40,7 @@ phone country code
 region code
 region name
 zip code
+
 3. Website Dataset
 This dataset represents website data formatted with ; as the delimiter, featuring the following columns:
 
@@ -53,6 +55,7 @@ phone
 site name
 TLD
 category
+
 🎯 Objective
 The aim of this project is to merge the three datasets into a fourth, unified dataset while ensuring:
 
